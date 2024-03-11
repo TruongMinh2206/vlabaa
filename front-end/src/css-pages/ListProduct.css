@@ -1,0 +1,59 @@
+/* ProductTable.css */
+.h1 {
+    color: #c82333;
+}
+/* Định dạng bảng */
+.product-table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  /* Định dạng dòng tiêu đề */
+  .product-table thead th {
+    background-color: #007bff; /* MCàu nền tiêu đề */
+    color: #fff; /* Màu chữ tiêu đề */
+    font-weight: bold;
+    text-align: center;
+    padding: 8px;
+  }
+  
+  /* Định dạng các ô dữ liệu */
+  .product-table tbody td {
+    text-align: center;
+    padding: 8px;
+  }
+  
+  /* Định dạng dòng chẵn */
+  .product-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2; /* Màu nền cho các dòng chẵn */
+  }
+  
+  /* Định dạng các nút xóa */
+  .product-table a {
+    color: blue; /* Màu chữ cho các nút xóa */
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .product-table a:hover {
+    color: #c82333; /* Màu chữ khi di chuột qua nút xóa */
+  }
+  .product-table tbody td {
+    text-align: left; /* Đặt căn lề văn bản sang trái */
+    padding: 8px;
+  }
+  .image {
+    display: flex;
+  }
+
+  .images .imagess{
+    width: 100px;
+    height: 60px;
+    
+  }
+
+  .cmt{
+    display: grid;
+  }
